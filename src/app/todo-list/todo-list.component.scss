@@ -1,0 +1,48 @@
+.background{
+    background-color: rgb(72, 157, 193);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .board{        
+        width: 450px;
+        min-height: 100px;
+        background-color: rgba(252, 252, 252);
+        padding-bottom: 15px;
+    }
+    input{
+        outline: none; /* 外框效果 */
+    }
+    .new-todo{
+        margin-left: auto;  
+        margin-right: auto;
+        display: flex;
+        border:2px rgba(237,199,126) solid;
+        margin-top: 10px;
+        width: 90%;
+        height: 30px;
+    }
+    ::placeholder {
+        color: rgb(148, 148, 148);
+        font-size: 1.5em;
+      }
+      .view{
+        background-color: rgb(240, 249, 255);
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        height: 30px;
+        border:  2px rgba(189, 189, 189, 0.514) solid;
+        border-left: none;
+        border-right: none;
+      }
+      .finish{
+        color:gray;
+        text-decoration: line-through;
+      }
+}
